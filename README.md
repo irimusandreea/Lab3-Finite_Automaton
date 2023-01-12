@@ -10,7 +10,7 @@ q0 1 q1\
 q1 0 q2\
 q1 1 q1\
 q2 0 q2\
-q2 1 q2\
+q2 1 q2
 
 Language definitions:\
 	Letter ::= “a”|…|”z”\
@@ -18,7 +18,7 @@ Language definitions:\
 	PositiveDigit ::= “1”|…|”9”\
 	Number ::= PositiveDigit {Digit} | Digit\
 	Alphabet ::= Letter Number\
-	Separator ::= “ “\
+	Separator ::= “ “
   
 Syntax:\
 	Structure ::= States Inputs InitialState FinalState {Transition}\
@@ -26,4 +26,4 @@ Syntax:\
         States ::= {Alphabet Separator}\
 	InitialState ::= Alphabet\
 	Final state ::= Alphabet\
-	Transition ::= States ”->” Alphabet ”=” States\
+	Transition ::= States ”->” Alphabet ”=” States
