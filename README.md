@@ -1,5 +1,5 @@
 # Lab3-Finite_Automaton
-- Documentation -
+ Documentation 
 
 q0 q1 q2\
 0 1\
